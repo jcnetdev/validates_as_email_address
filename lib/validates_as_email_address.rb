@@ -7,6 +7,7 @@ module PluginAWeek #:nodoc:
     EMAIL_FORMAT_OPTIONS = [
       :wrong_format,
       :allow_nil,
+      :allow_blank,
       :on,
       :if
     ]
