@@ -71,7 +71,7 @@ module PluginAWeek #:nodoc:
       
       # Add length validation
       length_configuration = configuration.reject {|key, value| !EMAIL_LENGTH_OPTIONS.include?(key)}
-      length_configuration.reverse_merge!(:within => 3..320)
+      length_configuration.reverse_merge!(:within => 3..320, :allow_blank => true)
       validates_length_of attr_names, length_configuration
     end
   end

@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = "validates_as_email_address"
-  s.version = "1.1"
-  s.date = "2008-07-09"
+  s.version = "1.11"
+  s.date = "2008-07-10"
   s.summary = "Gemified validates_as_email_address plugin"
   s.email = "avanie@gmail.com"
   s.homepage = "http://github.com/pager/validates_as_email_address"
