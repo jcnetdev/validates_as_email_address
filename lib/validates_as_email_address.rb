@@ -8,6 +8,7 @@ module PluginAWeek #:nodoc:
       :wrong_format,
       :allow_nil,
       :allow_blank,
+      :message,
       :on,
       :if
     ]
